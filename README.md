@@ -8,5 +8,12 @@
 
 ### To Utilize
 ```commandline
-pip install virtualenv
+source env/bin/activate
+pip install -r requirements.txt
+
+# to use the clean file and learn how 
+python clean.py -h 
 ```
+# notebooks show snorkel labeling and prediction pipeline
+
+Please contact me if you have any additional questions.
