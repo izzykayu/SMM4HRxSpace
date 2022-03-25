@@ -4,4 +4,9 @@
 
 - The link to the paper can be found https://aclanthology.org/2020.smm4h-1.9/
 
-- Model can be provided upon request, along with custom drug slang dictionary
+- Models such as the baseline classifer and the CNN classifer, and the word embeddings can be provided upon request, along with custom drug slang dictionary
+
+### To Utilize
+```commandline
+pip install virtualenv
+```
