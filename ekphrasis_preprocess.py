@@ -31,12 +31,14 @@ text_processor = TextPreProcessor(
     # with other expressions. You can pass more than one dictionaries.
     dicts=[emoticons]
 )
-#
-# sentences = [
-#     "CANT WAIT for the new season of #TwinPeaks ＼(^o^)／!!! #davidlynch #tvseries :)))",
-#     "I saw the new #johndoe movie and it suuuuucks!!! WAISTED $10... #badmovies :/",
-#     "@SentimentSymp:  can't wait for the Nov 9 #Sentiment talks!  YAAAAAAY !!! :-D http://sentimentsymposium.com/."
-# ]
-#
-# for s in sentences:
-#     print(" ".join(text_processor.pre_process_doc(s)))
+# comment if you want to remove test
+sentences = [
+    "CANT WAIT for the new season of #TwinPeaks ＼(^o^)／!!! #davidlynch #tvseries :)))",
+    "I saw the new #johndoe movie and it suuuuucks!!! WAISTED $10... #badmovies :/",
+    "@SentimentSymp:  can't wait for the Nov 9 #Sentiment talks!  YAAAAAAY !!! :-D http://sentimentsymposium.com/."
+]
+
+for s in sentences:
+    print(" ".join(text_processor.pre_process_doc(s)))
+
+
