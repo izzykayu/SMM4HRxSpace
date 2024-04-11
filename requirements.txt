@@ -14,7 +14,7 @@ defusedxml==0.6.0
 ekphrasis==0.5.1
 entrypoints==0.3
 ftfy==5.7
-idna==2.9
+idna==3.7
 importlib-metadata==1.6.0
 ipykernel==5.2.1
 ipython==8.10.0
